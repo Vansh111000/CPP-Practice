@@ -12,7 +12,6 @@ int power(int n)
     return pow(10,n);
 }
 
-
 int main()
 {
     int num {12345};
