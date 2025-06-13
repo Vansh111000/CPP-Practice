@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include <vector>
 #include <cmath>
@@ -6,14 +5,17 @@ using namespace std;
 
 // Challenge 1: Reverse a number
 // Input: 12345 → Output: 54321
+
 int power(int n)
 {
     return pow(10,n);
 }
 
+
 int main()
 {
-    int num {12345};
+    int num;
+    cin >> num;
     int n {0};
     int k{num/pow(10,n)};
     int x{num};
