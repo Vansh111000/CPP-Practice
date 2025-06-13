@@ -9,8 +9,13 @@ using namespace std;
 
 int isVowel(char ch)
 {
-    string vowels {"hello world"};
-    return (vowels.find(ch)!= string::npos);
+    //string vowels {"hello world"};
+    //return (vowels.find(ch)!= string::npos);
+    
+    //or 
+    
+    char* vowels {"Hello world"};
+    return (strchr(vowels,ch) != nullptr);
 }
 int main()
 {
