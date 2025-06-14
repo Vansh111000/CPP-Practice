@@ -5,7 +5,6 @@ using namespace std;
 
 // Challenge 1: Reverse a number
 // Input: 12345 → Output: 54321
-
 int power(int n)
 {
     return pow(10,n);
